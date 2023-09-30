@@ -23,3 +23,5 @@ export * from './Star';
 export * from './Television';
 export * from './Wrench';
 export * from './QRCode';
+export * from './Rank';
+export * from './Status';

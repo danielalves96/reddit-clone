@@ -6,7 +6,6 @@ const Button: React.FC<ButtonProps> = ({
   text,
   color = 'blue',
   icon,
-  textStyle,
   onClick,
 }) => {
   const buttonClasses = [styles.button, styles[color]].join(' ');
@@ -14,7 +13,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button className={buttonClasses} onClick={onClick}>
       {icon && <span className={styles.icon}>{icon}</span>}
-      <span style={textStyle}>{text}</span>
+      <span> {text}</span>
     </button>
   );
 };

@@ -6,10 +6,19 @@ import CommunityDetails from '../CommunityDetails';
 
 const AppContainer: React.FC = () => {
   return (
-    <div className={styles['main-container']}>
-      <Sidebar />
-      <Feed />
-      <CommunityDetails />
+    <div className={styles.mainContainer}>
+      <div className={styles.parent}>
+        <div className={styles.div1}>
+          {' '}
+          <Sidebar />
+        </div>
+        <div className={styles.div2}>
+          <Feed />{' '}
+        </div>
+        <div className={styles.div3}>
+          <CommunityDetails />{' '}
+        </div>
+      </div>
     </div>
   );
 };

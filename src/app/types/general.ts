@@ -12,6 +12,22 @@ export interface ButtonProps {
   text: string;
   color?: string;
   icon?: React.ReactNode;
-  textStyle?: React.CSSProperties;
   onClick?: () => void;
+}
+
+export interface CommunityInfoProps {
+  members: string;
+  online: string;
+  rank: string;
+}
+
+export interface MenuSectionProps {
+  title: string;
+  items: string[];
+}
+
+export interface ComunityMainDataProps {
+  title: string;
+  description: string;
+  subtitle: string;
 }

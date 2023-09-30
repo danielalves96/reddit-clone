@@ -1,16 +1,40 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import styles from './styles.module.scss';
+import Divider from '../Divider';
+import CommunityInfo from '../CommunityInfo';
+import MenuSection from '../MenuSection';
+import AuthorSection from '../AuthorSection';
+import ComunityMainData from '../ComunityMainData';
 
 const CommunityDetails: React.FC = () => {
+  const communityData = {
+    title: 'r/pokemon',
+    subtitle: 'Pokémon: Gotta Catch’Em All!',
+    description:
+      'r/pokemon is an unofficial Pokémon fan community. This is the place for most things Pokémon on Reddit—TV shows, video games, toys, trading cards, you name it!',
+    members: '4.4m',
+    online: '4.4k',
+    rank: 'Top 1%',
+  };
+
+  const menuItems = ['Wiki', 'Discord', 'Regras'];
+
   return (
-    <div className={styles.cdHeight}>
-      <div className={styles.cdSpacing}>
-        <div
-          style={{
-            backgroundColor: 'orange',
-          }}
-        >
-          Teste
+    <div className={styles.cdSpacing}>
+      <div className={styles.container}>
+        <img src="images/png/wallpaper.png" alt="wallpaper" />
+        <div className={styles.contentContainer}>
+          <ComunityMainData
+            title={communityData.title}
+            description={communityData.description}
+            subtitle={communityData.subtitle}
+          />
+          <CommunityInfo {...communityData} />
+          <Divider />
+          <MenuSection title="MENU" items={menuItems} />
+          <Divider />
+          <AuthorSection />
         </div>
       </div>
     </div>
