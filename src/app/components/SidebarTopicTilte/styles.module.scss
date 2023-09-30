@@ -1,0 +1,22 @@
+@import '../../styles/functions.scss';
+@import '../../styles/colors.scss';
+
+.topic {
+  color: $cadet;
+  font-size: to-rem(13);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: to-rem(10) to-rem(15);
+  margin-bottom: to-rem(5);
+  cursor: pointer;
+  border-radius: to-rem(10);
+
+  &:hover {
+    background: $ghost-white;
+    cursor: pointer;
+  }
+}

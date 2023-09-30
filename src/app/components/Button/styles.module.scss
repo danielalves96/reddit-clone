@@ -1,0 +1,48 @@
+@import '../../styles/functions.scss';
+@import '../../styles/colors.scss';
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: to-rem(10) to-rem(10);
+  border: none;
+  border-radius: to-rem(60);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: to-rem(14);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: none;
+  height: 100%;
+
+  &.blue {
+    background-color: $blue;
+    color: $white;
+  }
+
+  &.gray {
+    background-color: $ghost-white;
+    color: $black;
+  }
+
+  &.orange {
+    background-color: $orange;
+    color: $white;
+  }
+
+  &.ghost {
+    background-color: transparent;
+    color: $black;
+    border: to-rem(1) solid $black;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  .icon {
+    margin-right: to-rem(8);
+  }
+}

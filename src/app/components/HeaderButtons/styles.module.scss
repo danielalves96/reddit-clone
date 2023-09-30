@@ -1,0 +1,7 @@
+@import '../../styles/functions.scss';
+
+.buttons {
+  display: flex;
+  gap: to-rem(9);
+  align-items: center;
+}

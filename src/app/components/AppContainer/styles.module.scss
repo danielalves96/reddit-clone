@@ -1,0 +1,14 @@
+@import '../../styles/functions.scss';
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section {
+  flex: 1;
+  overflow-y: auto;
+  padding: to-rem(16);
+}

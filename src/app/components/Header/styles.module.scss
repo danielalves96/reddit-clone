@@ -1,0 +1,12 @@
+@import '../../styles/functions.scss';
+@import '../../styles/colors.scss';
+
+.header {
+  height: to-rem(70);
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 to-rem(15);
+  border-bottom: to-rem(1) solid $medium-gray;
+}

@@ -1,0 +1,11 @@
+@import '../../styles/functions.scss';
+
+.cdHeight {
+  height: 90vh;
+
+  .cdSpacing {
+    padding: to-rem(25);
+    padding-left: 0;
+    width: to-rem(305);
+  }
+}

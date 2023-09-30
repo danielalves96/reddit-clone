@@ -1,0 +1,27 @@
+@import '../../styles/functions.scss';
+@import '../../styles/colors.scss';
+
+.listGroupIcon {
+  display: flex;
+  align-items: center;
+  gap: to-rem(10);
+}
+
+.listItemIcon {
+  display: flex;
+  gap: to-rem(10);
+  align-items: center;
+  color: $dark-slate-gray;
+  font-size: to-rem(14);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: to-rem(10) to-rem(15) to-rem(10) to-rem(20);
+  border-radius: to-rem(10);
+  justify-content: space-between;
+
+  &:hover {
+    background: $ghost-white;
+    cursor: pointer;
+  }
+}
