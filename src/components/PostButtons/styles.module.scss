@@ -1,0 +1,17 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: to-rem(12);
+  margin-top: to-rem(10);
+}
+
+.createdDate {
+  color: $cadet;
+  font-size: to-rem(12);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

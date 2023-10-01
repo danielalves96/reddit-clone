@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './components/Header';
-import AppContainer from './components/AppContainer';
+import Header from 'src/components/Header';
+import AppContainer from 'src/components/AppContainer';
 
 const App: React.FC = () => {
   return (

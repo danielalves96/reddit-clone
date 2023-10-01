@@ -1,0 +1,15 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.tagItem {
+  background-color: $medium-gray;
+  display: flex;
+  gap: to-rem(9);
+  padding: 0.5em 0.75em;
+  border-radius: to-rem(20);
+  color: $dark-slate-gray;
+  font-size: to-rem(12);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

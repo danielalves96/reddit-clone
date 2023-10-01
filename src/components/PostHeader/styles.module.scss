@@ -1,0 +1,41 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.authorData {
+  display: flex;
+  gap: to-rem(4);
+  align-items: center;
+}
+
+.authorImage {
+  width: to-rem(33);
+  height: to-rem(33);
+  border-radius: 50%;
+}
+
+.authorName {
+  color: $slate;
+  font-size: to-rem(12);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+
+  &:hover {
+    color: $navy-blue;
+    cursor: pointer;
+  }
+}
+
+.createdDate {
+  color: $cadet;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

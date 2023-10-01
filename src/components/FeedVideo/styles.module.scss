@@ -1,0 +1,10 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.video {
+  width: -webkit-fill-available;
+  max-height: to-rem(500);
+  background: $black;
+  border-radius: to-rem(15);
+  margin-top: to-rem(15);
+}

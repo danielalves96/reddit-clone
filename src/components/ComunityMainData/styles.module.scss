@@ -1,0 +1,33 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.title {
+  font-size: to-rem(18);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0 to-rem(15);
+  margin-bottom: to-rem(5);
+}
+
+.description {
+  padding: 0 to-rem(15);
+  display: flex;
+  flex-direction: column;
+  gap: to-rem(5);
+}
+.descriptionTitle {
+  font-size: to-rem(14);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: $slate;
+}
+
+.descriptionText {
+  font-size: to-rem(14);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.523%;
+  color: $cadet;
+}

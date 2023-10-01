@@ -1,0 +1,20 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.listItem {
+  display: flex;
+  gap: to-rem(10);
+  align-items: center;
+  color: $dark-slate-gray;
+  font-size: to-rem(14);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: to-rem(10) to-rem(20);
+  border-radius: to-rem(10);
+
+  &:hover {
+    background: $ghost-white;
+    cursor: pointer;
+  }
+}

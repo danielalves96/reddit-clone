@@ -1,0 +1,30 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.postContainer {
+  padding: to-rem(15);
+  border-radius: to-rem(15);
+  display: flex;
+  flex-direction: column;
+  gap: to-rem(8);
+
+  &:hover {
+    background: $white-smoke;
+  }
+}
+
+.dividerSpacing {
+  padding: 0 to-rem(15);
+}
+
+.postTitle {
+  color: $dark-slate-gray;
+  font-size: to-rem(18);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.post {
+  margin-top: to-rem(15);
+}

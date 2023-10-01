@@ -1,0 +1,37 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: to-rem(15);
+}
+
+.communityData {
+  display: flex;
+  align-items: center;
+  gap: to-rem(8);
+  color: $dark-slate-gray;
+  font-size: to-rem(18);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: to-rem(10);
+  color: $cadet;
+  font-size: to-rem(12);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dropdown {
+  display: flex;
+  gap: to-rem(3);
+  cursor: pointer;
+}

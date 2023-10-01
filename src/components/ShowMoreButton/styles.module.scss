@@ -1,0 +1,19 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.seeMoreButton {
+  font-size: to-rem(12);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: to-rem(10);
+  border: none;
+  background: none;
+  border-radius: to-rem(50);
+  margin-top: to-rem(5);
+
+  &:hover {
+    background: $ghost-white;
+    cursor: pointer;
+  }
+}

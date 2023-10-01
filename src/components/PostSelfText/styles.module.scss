@@ -1,0 +1,10 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.selfText {
+  margin-top: to-rem(15);
+  font-size: to-rem(14);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

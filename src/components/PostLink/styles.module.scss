@@ -1,0 +1,16 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.link {
+  color: $navy-blue;
+  font-size: to-rem(14);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: underline;
+  margin-top: to-rem(15);
+
+  a {
+    color: $navy-blue;
+  }
+}

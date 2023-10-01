@@ -1,0 +1,21 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.badge {
+  margin-top: to-rem(15);
+  color: $white;
+  font-size: to-rem(12);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+}
+
+.badgeText {
+  padding: to-rem(3) to-rem(8);
+  border-radius: to-rem(30);
+}

@@ -1,0 +1,8 @@
+@import 'src/app/styles/functions.scss';
+@import 'src/app/styles/colors.scss';
+
+.feedContainer {
+  padding: to-rem(25);
+  max-width: to-rem(750);
+  margin: auto;
+}
