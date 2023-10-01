@@ -1,11 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import CommunityDetails from '.';
+import { communityData } from '@/mocks/communityDetail';
 
 describe('CommunityDetails', () => {
   it('renders component with expected data', () => {
     render(<CommunityDetails />);
 
-    const titleElement = screen.getByText('r/pokemon');
+    const titleElement = screen.getByText(communityData.title);
     expect(titleElement).toBeTruthy();
 
     const descriptionElement = screen.getByText(
@@ -13,16 +14,16 @@ describe('CommunityDetails', () => {
     );
     expect(descriptionElement).toBeTruthy();
 
-    const subtitleElement = screen.getByText('Pokémon: Gotta Catch’Em All!');
+    const subtitleElement = screen.getByText(communityData.subtitle);
     expect(subtitleElement).toBeTruthy();
 
-    const membersElement = screen.getByText('4.4m');
+    const membersElement = screen.getByText(communityData.members);
     expect(membersElement).toBeTruthy();
 
-    const onlineElement = screen.getByText('4.4k');
+    const onlineElement = screen.getByText(communityData.online);
     expect(onlineElement).toBeTruthy();
 
-    const rankElement = screen.getByText('Top 1%');
+    const rankElement = screen.getByText(communityData.rank);
     expect(rankElement).toBeTruthy();
 
     const dividerElements = screen.getAllByTestId('divider');
