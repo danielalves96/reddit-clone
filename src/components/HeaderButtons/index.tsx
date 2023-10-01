@@ -7,7 +7,7 @@ import { testAlert } from 'src/utils/utils';
 
 const HeaderButtons: React.FC = () => {
   return (
-    <div className={styles.buttons}>
+    <div className={styles.buttons} data-testid="header-buttons">
       <Button
         icon={<IconQRCode size={18} />}
         text="Baixar app"
@@ -15,7 +15,11 @@ const HeaderButtons: React.FC = () => {
         onClick={() => testAlert()}
       />
       <Button text="Entrar" color="orange" onClick={() => testAlert()} />
-      <div className="pointer" onClick={() => testAlert()}>
+      <div
+        className="pointer"
+        onClick={() => testAlert()}
+        data-testid="more-options-button"
+      >
         <IconDots size={20} />
       </div>
     </div>
