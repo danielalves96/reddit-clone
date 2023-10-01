@@ -155,19 +155,19 @@ npm run format
 
 ## 🎲 Principais Dependências do projeto:
 
-[axios](https://axios-http.com/ptbr/docs/intro): Cliente HTTP para fazer solicitações de API.
-[date-fns](https://date-fns.org/): Biblioteca para manipulação de datas.
-[lodash](https://lodash.com/): Utilitários de JavaScript.
-[NextJS](https://nextjs.org/): Framework React para construção de aplicativos web.
-[React](https://react.dev/): Biblioteca JavaScript para construir interfaces de usuário.
-[React DOM](https://pt-br.legacy.reactjs.org/docs/react-dom.html): Renderizador React para a web.
+- [axios](https://axios-http.com/ptbr/docs/intro): Cliente HTTP para fazer solicitações de API.
+- [date-fns](https://date-fns.org/): Biblioteca para manipulação de datas.
+- [lodash](https://lodash.com/): Utilitários de JavaScript.
+- [NextJS](https://nextjs.org/): Framework React para construção de aplicativos web.
+- [React](https://react.dev/): Biblioteca JavaScript para construir interfaces de usuário.
+- [React DOM](https://pt-br.legacy.reactjs.org/docs/react-dom.html): Renderizador React para a web.
 
 ## 🔩 Dependências de Desenvolvimento:
 
-[Jest](https://jestjs.io/pt-BR/): Framework de teste JavaScript.
-[ESLint](https://eslint.org/): Linter de código JavaScript/TypeScript.
-[Prettier](https://prettier.io/): Formatador de código.
-[Sass](https://sass-lang.com/): Pré-processador CSS.
+- [Jest](https://jestjs.io/pt-BR/): Framework de teste JavaScript.
+- [ESLint](https://eslint.org/): Linter de código JavaScript/TypeScript.
+- [Prettier](https://prettier.io/): Formatador de código.
+- [Sass](https://sass-lang.com/): Pré-processador CSS.
 
 ## 📝 Licença
 
