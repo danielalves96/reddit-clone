@@ -5,4 +5,8 @@
   padding: to-rem(25);
   max-width: to-rem(750);
   margin: auto;
+
+  @media screen and (max-width: 475px) {
+    padding: to-rem(25) 0;
+  }
 }

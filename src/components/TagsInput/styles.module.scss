@@ -18,6 +18,18 @@
     border: 1px solid $blue;
     cursor: auto;
   }
+
+  @media screen and (max-width: 1240px) {
+    margin: 0 15px;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 520px) {
+    display: none;
+  }
 }
 
 .tagsInput {

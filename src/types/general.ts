@@ -47,8 +47,11 @@ export interface Post {
   selftext: string;
   created: number;
   is_video: boolean;
-  media: any;
-  media_metadata: any;
+  media?: {
+    reddit_video?: {
+      fallback_url?: string;
+    };
+  };
   post_hint: string;
   url: string;
   author_image?: string;

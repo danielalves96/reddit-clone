@@ -8,12 +8,14 @@ import { testAlert } from 'src/utils/utils';
 const HeaderButtons: React.FC = () => {
   return (
     <div className={styles.buttons} data-testid="header-buttons">
-      <Button
-        icon={<IconQRCode size={18} />}
-        text="Baixar app"
-        color="gray"
-        onClick={() => testAlert()}
-      />
+      <div className={styles.downloadButton}>
+        <Button
+          icon={<IconQRCode size={18} />}
+          text="Baixar app"
+          color="gray"
+          onClick={() => testAlert()}
+        />
+      </div>
       <Button text="Entrar" color="orange" onClick={() => testAlert()} />
       <div
         className="pointer"

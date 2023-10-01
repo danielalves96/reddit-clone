@@ -1,7 +1,7 @@
 import { IconsProps } from '../types';
 
 export const IconAnnouncement = ({ size, color }: IconsProps) => (
-  <div style={{ display: `flex` }}>
+  <div style={{ display: `flex` }} data-testid="IconAnnouncement">
     <svg
       width={`${size}px`}
       height={`${size}px`}

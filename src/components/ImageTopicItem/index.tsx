@@ -6,7 +6,11 @@ import { SidebarImageItem } from 'src/types/general';
 
 const ImageTopicItem: React.FC<SidebarImageItem> = ({ imageSrc, text }) => {
   return (
-    <div className={styles.listItemImage} onClick={() => testAlert()}>
+    <div
+      className={styles.listItemImage}
+      onClick={() => testAlert()}
+      data-testid="list-item-image"
+    >
       <img
         src={imageSrc}
         alt="Image"

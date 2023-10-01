@@ -14,7 +14,11 @@ const PostHeader: React.FC<{ post: Post }> = ({ post }) => {
   return (
     <div className={styles.postHeader}>
       <div className={styles.authorData}>
-        <img className={styles.authorImage} src={post.author_image} />
+        <img
+          className={styles.authorImage}
+          src={post.author_image}
+          alt="Author Image"
+        />
         <a
           className={styles.authorName}
           href={`https://www.reddit.com/u/${post.author}`}

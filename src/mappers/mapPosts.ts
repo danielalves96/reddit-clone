@@ -13,7 +13,6 @@ export const mapPosts = (posts: RedditPost[]) => {
     'created',
     'is_video',
     'media',
-    'media_metadata',
     'post_hint',
     'url',
     'thumbnail',

@@ -5,3 +5,9 @@
   gap: to-rem(9);
   align-items: center;
 }
+
+.downloadButton {
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+}
