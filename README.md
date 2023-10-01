@@ -176,6 +176,6 @@ Esse projeto está sob a licença MIT.
 ---
 
 <h3 align="center">
-Feito por [Daniel Luiz Alves](https://daniel-luiz-alves.vercel.app/)
+Feito por Daniel Luiz Alves
 <br><br>
 </h3>
