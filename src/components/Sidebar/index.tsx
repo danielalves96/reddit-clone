@@ -1,18 +1,18 @@
 'use client';
 import React, { useState } from 'react';
-import styles from './styles.module.scss';
 import {
   recentItems,
   resourcesItems,
   sidebarItems,
   subjectsItems,
 } from 'src/mocks/sidebar';
-import { SidebarTopicTilte } from '../SidebarTopicTilte';
 import Divider from '../Divider';
-import SimpleTopicItem from '../SimpleTopicItem';
-import ImageTopicItem from '../ImageTopicItem';
 import DropdownTopicItem from '../DropdownTopicItem';
+import ImageTopicItem from '../ImageTopicItem';
 import ShowMoreButton from '../ShowMoreButton';
+import { SidebarTopicTilte } from '../SidebarTopicTilte';
+import SimpleTopicItem from '../SimpleTopicItem';
+import styles from './styles.module.scss';
 
 const Sidebar: React.FC = () => {
   const [isOpenRecent, setIsOpenRecent] = useState(true);

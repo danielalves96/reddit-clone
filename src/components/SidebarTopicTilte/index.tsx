@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './styles.module.scss';
 import { IconChevronDown, IconChevronUp } from '../Icons';
+import styles from './styles.module.scss';
 
 export const SidebarTopicTilte: React.FC<{
   title: string;

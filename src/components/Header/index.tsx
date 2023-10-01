@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './styles.module.scss';
-import TagsInput from '../TagsInput';
 import HeaderButtons from '../HeaderButtons';
 import HeaderLogo from '../HeaderLogo';
+import TagsInput from '../TagsInput';
+import styles from './styles.module.scss';
 
 const Header: React.FC = () => {
   return (

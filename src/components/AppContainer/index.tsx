@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './styles.module.scss';
-import Sidebar from '../Sidebar';
-import Feed from '../Feed';
 import CommunityDetails from '../CommunityDetails';
+import Feed from '../Feed';
+import Sidebar from '../Sidebar';
+import styles from './styles.module.scss';
 
 const AppContainer: React.FC = () => {
   return (

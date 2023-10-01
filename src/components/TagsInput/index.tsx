@@ -1,5 +1,5 @@
-import styles from './styles.module.scss';
 import { TagItem } from '../TagItem';
+import styles from './styles.module.scss';
 
 function TagsInput() {
   return (

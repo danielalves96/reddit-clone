@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import styles from './styles.module.scss';
-import Divider from '../Divider';
-import CommunityInfo from '../CommunityInfo';
-import MenuSection from '../MenuSection';
 import AuthorSection from '../AuthorSection';
+import CommunityInfo from '../CommunityInfo';
 import ComunityMainData from '../ComunityMainData';
+import Divider from '../Divider';
+import MenuSection from '../MenuSection';
+import styles from './styles.module.scss';
 
 const CommunityDetails: React.FC = () => {
   const communityData = {

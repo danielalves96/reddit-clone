@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import styles from './styles.module.scss';
-import { testAlert } from 'src/utils/utils';
 import { SidebarImageItem } from 'src/types/general';
+import { testAlert } from 'src/utils/utils';
+import styles from './styles.module.scss';
 
 const ImageTopicItem: React.FC<SidebarImageItem> = ({ imageSrc, text }) => {
   return (

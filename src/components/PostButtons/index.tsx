@@ -1,10 +1,10 @@
 'use client';
 import React from 'react';
-import styles from './styles.module.scss';
-import Button from '../Button';
-import { IconArrowDown, IconArrowUp, IconComment, IconShare } from '../Icons';
 import { PostButtonsProps } from 'src/types/general';
 import { testAlert } from 'src/utils/utils';
+import Button from '../Button';
+import { IconArrowDown, IconArrowUp, IconComment, IconShare } from '../Icons';
+import styles from './styles.module.scss';
 
 const PostButtons: React.FC<PostButtonsProps> = ({ ups, num_comments }) => {
   return (

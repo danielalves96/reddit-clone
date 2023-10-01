@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './styles.module.scss';
-import { IconChevronDown } from '../Icons';
-import { testAlert } from 'src/utils/utils';
 import { SidebarItem } from 'src/types/general';
+import { testAlert } from 'src/utils/utils';
+import { IconChevronDown } from '../Icons';
+import styles from './styles.module.scss';
 
 const DropdownTopicItem: React.FC<SidebarItem> = ({ text, icon }) => {
   return (

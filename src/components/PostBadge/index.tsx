@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
-import styles from './styles.module.scss';
 import { PostBadgeProps } from 'src/types/general';
 import { testAlert } from 'src/utils/utils';
+import styles from './styles.module.scss';
 
 const PostBadge: React.FC<PostBadgeProps> = ({ text, color }) => {
   return (

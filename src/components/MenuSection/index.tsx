@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
-import styles from './styles.module.scss';
-import Button from '../Button';
 import { MenuSectionProps } from 'src/types/general';
 import { testAlert } from 'src/utils/utils';
+import Button from '../Button';
+import styles from './styles.module.scss';
 
 const MenuSection: React.FC<MenuSectionProps> = ({ title, items }) => {
   return (

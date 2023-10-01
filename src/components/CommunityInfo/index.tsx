@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
-import styles from './styles.module.scss';
-import { IconRank, IconStatus } from '../Icons';
 import { CommunityInfoProps } from 'src/types/general';
 import { testAlert } from 'src/utils/utils';
+import { IconRank, IconStatus } from '../Icons';
+import styles from './styles.module.scss';
 
 const CommunityInfo: React.FC<CommunityInfoProps> = ({
   members,

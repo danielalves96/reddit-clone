@@ -1,7 +1,6 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
-import ComunityMainData from '.';
 import * as utils from 'src/utils/utils';
+import ComunityMainData from '.';
 
 jest.mock('src/utils/utils', () => ({
   ...jest.requireActual('src/utils/utils'),

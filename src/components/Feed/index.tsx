@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import styles from './styles.module.scss';
-import RedditApi from 'src/services/api';
 import { mapPosts } from 'src/mappers/mapPosts';
+import RedditApi from 'src/services/api';
+import { Post } from 'src/types/general';
+import { removeQueryStringFromURL } from 'src/utils/utils';
 import FeedHeader from '../FeedHeader';
 import PostItem from '../PostItem';
-import { removeQueryStringFromURL } from 'src/utils/utils';
-import { Post } from 'src/types/general';
+import styles from './styles.module.scss';
 
 export const revalidate = 3600;
 

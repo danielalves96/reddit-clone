@@ -2,13 +2,13 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
 
-import React from 'react';
-import styles from './styles.module.scss';
-import { IconDots, IconStatus } from '../Icons';
-import { Post } from 'src/types/general';
 import { formatDistance } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
+import React from 'react';
+import { Post } from 'src/types/general';
 import { testAlert } from 'src/utils/utils';
+import { IconDots, IconStatus } from '../Icons';
+import styles from './styles.module.scss';
 
 const PostHeader: React.FC<{ post: Post }> = ({ post }) => {
   return (

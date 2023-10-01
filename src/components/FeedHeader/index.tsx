@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
 import React from 'react';
-import styles from './styles.module.scss';
+import { testAlert } from 'src/utils/utils';
 import Button from '../Button';
 import { IconBox, IconChevronDown } from '../Icons';
-import { testAlert } from 'src/utils/utils';
+import styles from './styles.module.scss';
 
 const FeedHeader: React.FC = () => {
   return (

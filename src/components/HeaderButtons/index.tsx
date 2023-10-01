@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
-import styles from './styles.module.scss';
+import { testAlert } from 'src/utils/utils';
 import Button from '../Button';
 import { IconDots, IconQRCode } from '../Icons';
-import { testAlert } from 'src/utils/utils';
+import styles from './styles.module.scss';
 
 const HeaderButtons: React.FC = () => {
   return (

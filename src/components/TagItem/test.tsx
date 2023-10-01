@@ -1,7 +1,6 @@
-import React from 'react';
-import { render, fireEvent, screen } from '@testing-library/react';
-import { TagItem } from '.';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { testAlert } from 'src/utils/utils';
+import { TagItem } from '.';
 
 jest.mock('src/utils/utils', () => ({
   testAlert: jest.fn(),

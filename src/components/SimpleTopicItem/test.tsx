@@ -1,7 +1,6 @@
-import React from 'react';
-import { render, fireEvent, screen } from '@testing-library/react';
-import SimpleTopicItem from '.';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { testAlert } from 'src/utils/utils';
+import SimpleTopicItem from '.';
 
 jest.mock('src/utils/utils', () => ({
   testAlert: jest.fn(),
