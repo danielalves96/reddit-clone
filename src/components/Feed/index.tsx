@@ -12,7 +12,8 @@ import { Post } from 'src/types/general';
 export const revalidate = 3600;
 
 const Feed: React.FC = async () => {
-  const { data } = await RedditApi.get(`r/cyberpunkgame.json?limit=1`);
+  const redditUrl = `r/${process.env.NEXT_PULIC_COMMUNITY_NAME}.json?limit=${process.env.NEXT_PULIC_RESULTS_LIMIT}`;
+  const { data } = await RedditApi.get(redditUrl);
 
   const mappedPosts = mapPosts(data.data.children) as Post[];
 
