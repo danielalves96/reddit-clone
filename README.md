@@ -21,8 +21,10 @@ Para os testes unitários optei por utilizar a biblioteca [JEST](https://jestjs.
 Como a referência fornecida foi apenas uma imagem, tomei a liberdade de desenvolver um layout no Figma para facilitar o desenvolvimento.
 
 **O mesmo pode ser consultado aqui:** **[FIGMA](https://www.figma.com/file/LXS8A09SBQs8x4TIrZv8LA/Untitled?type=design&node-id=0:1&mode=dev)**
+## 🏭 Aplicação em produção
 
-**[LIVE DEMO](https://reddit-clone-omega-flax.vercel.app/)**
+**Disponível neste link: [LIVE DEMO](https://reddit-clone-omega-flax.vercel.app/)**
+
 
 ## ⚙️ Instalação
 
