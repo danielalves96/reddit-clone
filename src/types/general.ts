@@ -37,6 +37,12 @@ export interface RedditPost {
   data: Post;
 }
 
+export interface Media {
+  reddit_video?: {
+    fallback_url?: string;
+  };
+}
+
 export interface Post {
   link_flair_text: string;
   link_flair_background_color: string;
@@ -47,11 +53,7 @@ export interface Post {
   selftext: string;
   created: number;
   is_video: boolean;
-  media?: {
-    reddit_video?: {
-      fallback_url?: string;
-    };
-  };
+  media?: Media;
   post_hint: string;
   url: string;
   author_image?: string;

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
+import { communityData } from '@/mocks/communityDetail';
 import React from 'react';
 import { testAlert } from 'src/utils/utils';
 import Button from '../Button';
@@ -11,8 +12,8 @@ const FeedHeader: React.FC = () => {
     <div className={styles.headerContainer}>
       <div className={styles.header}>
         <div className={styles.communityData}>
-          <img src="images/png/pokemon.png" alt="image" width={49} />
-          <span>r/pokemon</span>
+          <img src={communityData.image} alt="image" width={49} />
+          <span>{communityData.title}</span>
         </div>
         <div className={styles.controls}>
           <span>Ordenar por:</span>

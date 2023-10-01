@@ -1,7 +1,8 @@
+import { Media } from '@/types/general';
 import React from 'react';
 import styles from './styles.module.scss';
 
-const FeedVideo: React.FC<{ media: any }> = ({ media }) => {
+const FeedVideo: React.FC<{ media?: Media }> = ({ media }) => {
   return (
     <div>
       <video className={styles.video} controls role="video">
