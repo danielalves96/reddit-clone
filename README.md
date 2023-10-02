@@ -4,9 +4,13 @@
 
   <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" width="42" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" height="30" width="42" alt="typescript logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" width="42" alt="nextjs logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="30" width="42" alt="sass logo"  />
+  </br>
+  </br>
 </div>
+
 
 **Este é um projeto de clone do Reddit construído com tecnologias como Next.js 13.5.3, React 18 e TypeScript.**
 
@@ -17,6 +21,8 @@ Foi escolhido o framework [NextJS](https://nextjs.org/) na versão 13 pois o mes
 Para demonstrar o conhecimento em css, optei por desenvolver a aplicação com CSS Modules em conjunto com o Framework [SASS](https://sass-lang.com/). Porém a mesma poderia ser desenvolvida usando [Styled Components](https://styled-components.com/) (Com a limitação dos componentes serem renderizados apenas em client side), Tailwind que tem total integração com [NextJS](https://nextjs.org/) 13 ou até mesmo com outras bibliotecas e frameworks disponíveis na comunidade.
 
 Para os testes unitários optei por utilizar a biblioteca [JEST](https://jestjs.io/pt-BR/) em conjunto com a [React Testing Library](https://testing-library.com/).
+
+> Nesta aplicação não fiz o uso de Context API ou outro gerenciador de estados pois não julguei necessário. Mas queiram ver algumas aplicações que desenvolvi com `NextJS`, `Styled Components`, `Tailwind`, `Context API` e `i18n` vou deixar o repositório dessas duas: [capivara-dev](https://github.com/danielalves96/capivara-dev) , [gamers-club-test](https://github.com/danielalves96/gamers-club-test).
 
 Como a referência fornecida foi apenas uma imagem, tomei a liberdade de desenvolver um layout no Figma para facilitar o desenvolvimento.
 
