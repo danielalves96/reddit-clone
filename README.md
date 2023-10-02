@@ -22,7 +22,7 @@ Para demonstrar o conhecimento em css, optei por desenvolver a aplicação com C
 
 Para os testes unitários optei por utilizar a biblioteca [JEST](https://jestjs.io/pt-BR/) em conjunto com a [React Testing Library](https://testing-library.com/).
 
-> Nesta aplicação não fiz o uso de Context API ou outro gerenciador de estados pois não julguei necessário. Mas queiram ver algumas aplicações que desenvolvi com `NextJS`, `Styled Components`, `Tailwind`, `Context API` e `i18n` vou deixar o repositório dessas duas: [capivara-dev](https://github.com/danielalves96/capivara-dev) , [gamers-club-test](https://github.com/danielalves96/gamers-club-test).
+> Nesta aplicação não fiz o uso de Routes e Context API ou outro gerenciador de estados pois não julguei necessário. Mas queiram ver algumas aplicações que desenvolvi com `NextJS`, `Styled Components`, `Tailwind`, `Context API` e `i18n` vou deixar o repositório dessas duas: [capivara-dev](https://github.com/danielalves96/capivara-dev) , [gamers-club-test](https://github.com/danielalves96/gamers-club-test).
 
 Como a referência fornecida foi apenas uma imagem, tomei a liberdade de desenvolver um layout no Figma para facilitar o desenvolvimento.
 
