@@ -123,7 +123,7 @@ NEXT_PULIC_RESULTS_LIMIT=25
 
 > Caso em modo desenvolvimento ocorra um erro de API com o código 429, não se preocupe
 > é apenas a API do Reddit bloqueando a consulta pelo número excessivo de requests.
-> Aguarde alguns minutos que conseguirá realizar as consultas novamente.
+> Aguarde alguns minutos que conseguirá realizar as consultas novamente. Em Produção esse problema não ocorrerá devido a configuração de cache após a build.
 
 ## 🧪 Testes
 
